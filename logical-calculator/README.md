@@ -16,4 +16,9 @@ Tests
 
 logical_calc([true, true, true, false], "XOR") => true)
 
+logical_calc([true, true, false, false], "AND") => false
+logical_calc([true, true, false, false], "OR") => true
+logical_calc([true, true, false, false], "XOR") => false
+(logical_calc([true, false, false, false], "AND") => false
+
 

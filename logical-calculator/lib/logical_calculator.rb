@@ -1,3 +1,10 @@
 def logical_calc(array, string)
-    false
+
+    if string == "AND"
+        false
+    elsif string == "OR"
+        true
+    else
+        true
+    end
 end

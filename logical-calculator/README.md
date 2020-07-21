@@ -8,7 +8,10 @@ Links referring to logical operations: AND, OR and XOR.
 
 You should begin at the first value, and repeatedly apply the logical operation across the remaining elements in the array sequentially.
 
-Tests
+
+NEED TO START WITH EASIER TESTS AND BUILD UP
+
+### Tests
 
 (logical_calc([true, true, true, false], "AND") => false
 
@@ -17,8 +20,11 @@ Tests
 logical_calc([true, true, true, false], "XOR") => true)
 
 logical_calc([true, true, false, false], "AND") => false
+
 logical_calc([true, true, false, false], "OR") => true
+
 logical_calc([true, true, false, false], "XOR") => false
+
 (logical_calc([true, false, false, false], "AND") => false
 
 

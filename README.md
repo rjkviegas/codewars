@@ -1,2 +1,3 @@
-# codewars
-CodeWars repository
+## codewars
+### CodeWars repository
+
